@@ -1,4 +1,4 @@
-FROM owncloud/client:latest
+FROM owncloud/client:2.2.4
 MAINTAINER ownCloud DevOps <devops@owncloud.com>
 
 ENTRYPOINT ["/usr/local/bin/smash-wrapper"]
